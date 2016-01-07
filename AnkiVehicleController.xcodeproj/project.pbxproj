@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5510B31AEB50C000DA2E06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5510B21AEB50C000DA2E06 /* main.m */; };
+		1F5511221AEB55FC00DA2E06 /* VehiclesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5511211AEB55FC00DA2E06 /* VehiclesController.m */; };
+		1F5511251AEB59F500DA2E06 /* Vehicle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5511241AEB59F500DA2E06 /* Vehicle.m */; };
+		1F5511351AEB64F800DA2E06 /* advertisement.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5511291AEB64F800DA2E06 /* advertisement.c */; };
+		1F5511361AEB64F800DA2E06 /* anki_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F55112B1AEB64F800DA2E06 /* anki_util.c */; };
+		1F5511371AEB64F800DA2E06 /* eir.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F55112E1AEB64F800DA2E06 /* eir.c */; };
+		1F5511381AEB64F800DA2E06 /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5511301AEB64F800DA2E06 /* protocol.c */; };
+		1F5511391AEB64F800DA2E06 /* uuid.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F5511321AEB64F800DA2E06 /* uuid.c */; };
+		1F55113B1AEB670000DA2E06 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F55113A1AEB670000DA2E06 /* Cocoa.framework */; };
+		1F55113D1AEB68CC00DA2E06 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F55113C1AEB68CC00DA2E06 /* CoreBluetooth.framework */; };
+		1F5511421AEC42A900DA2E06 /* StdInReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5511411AEC42A900DA2E06 /* StdInReader.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F5510AD1AEB50C000DA2E06 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F5510AF1AEB50C000DA2E06 /* AnkiVehicleController */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AnkiVehicleController; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5510B21AEB50C000DA2E06 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F5511201AEB55FC00DA2E06 /* VehiclesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehiclesController.h; sourceTree = "<group>"; };
+		1F5511211AEB55FC00DA2E06 /* VehiclesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehiclesController.m; sourceTree = "<group>"; };
+		1F5511231AEB59F500DA2E06 /* Vehicle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vehicle.h; sourceTree = "<group>"; };
+		1F5511241AEB59F500DA2E06 /* Vehicle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vehicle.m; sourceTree = "<group>"; };
+		1F5511291AEB64F800DA2E06 /* advertisement.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = advertisement.c; sourceTree = "<group>"; };
+		1F55112A1AEB64F800DA2E06 /* advertisement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = advertisement.h; sourceTree = "<group>"; };
+		1F55112B1AEB64F800DA2E06 /* anki_util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = anki_util.c; sourceTree = "<group>"; };
+		1F55112C1AEB64F800DA2E06 /* anki_util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = anki_util.h; sourceTree = "<group>"; };
+		1F55112D1AEB64F800DA2E06 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		1F55112E1AEB64F800DA2E06 /* eir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = eir.c; sourceTree = "<group>"; };
+		1F55112F1AEB64F800DA2E06 /* eir.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eir.h; sourceTree = "<group>"; };
+		1F5511301AEB64F800DA2E06 /* protocol.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = protocol.c; sourceTree = "<group>"; };
+		1F5511311AEB64F800DA2E06 /* protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = protocol.h; sourceTree = "<group>"; };
+		1F5511321AEB64F800DA2E06 /* uuid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uuid.c; sourceTree = "<group>"; };
+		1F5511331AEB64F800DA2E06 /* uuid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uuid.h; sourceTree = "<group>"; };
+		1F5511341AEB64F800DA2E06 /* vehicle_gatt_profile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = vehicle_gatt_profile.h; sourceTree = "<group>"; };
+		1F55113A1AEB670000DA2E06 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		1F55113C1AEB68CC00DA2E06 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		1F5511401AEC42A900DA2E06 /* StdInReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StdInReader.h; sourceTree = "<group>"; };
+		1F5511411AEC42A900DA2E06 /* StdInReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StdInReader.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5510AC1AEB50C000DA2E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F55113D1AEB68CC00DA2E06 /* CoreBluetooth.framework in Frameworks */,
+				1F55113B1AEB670000DA2E06 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5510A61AEB50C000DA2E06 = {
+			isa = PBXGroup;
+			children = (
+				1F5511261AEB643200DA2E06 /* Frameworks */,
+				1F5510B11AEB50C000DA2E06 /* AnkiVehicleController */,
+				1F5510B01AEB50C000DA2E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F5510B01AEB50C000DA2E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F5510AF1AEB50C000DA2E06 /* AnkiVehicleController */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F5510B11AEB50C000DA2E06 /* AnkiVehicleController */ = {
+			isa = PBXGroup;
+			children = (
+				1F5511281AEB64F800DA2E06 /* anki_sdk */,
+				1F5510B21AEB50C000DA2E06 /* main.m */,
+				1F5511201AEB55FC00DA2E06 /* VehiclesController.h */,
+				1F5511211AEB55FC00DA2E06 /* VehiclesController.m */,
+				1F5511231AEB59F500DA2E06 /* Vehicle.h */,
+				1F5511241AEB59F500DA2E06 /* Vehicle.m */,
+				1F5511401AEC42A900DA2E06 /* StdInReader.h */,
+				1F5511411AEC42A900DA2E06 /* StdInReader.m */,
+			);
+			path = AnkiVehicleController;
+			sourceTree = "<group>";
+		};
+		1F5511261AEB643200DA2E06 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F55113C1AEB68CC00DA2E06 /* CoreBluetooth.framework */,
+				1F55113A1AEB670000DA2E06 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F5511281AEB64F800DA2E06 /* anki_sdk */ = {
+			isa = PBXGroup;
+			children = (
+				1F5511291AEB64F800DA2E06 /* advertisement.c */,
+				1F55112A1AEB64F800DA2E06 /* advertisement.h */,
+				1F55112B1AEB64F800DA2E06 /* anki_util.c */,
+				1F55112C1AEB64F800DA2E06 /* anki_util.h */,
+				1F55112D1AEB64F800DA2E06 /* common.h */,
+				1F55112E1AEB64F800DA2E06 /* eir.c */,
+				1F55112F1AEB64F800DA2E06 /* eir.h */,
+				1F5511301AEB64F800DA2E06 /* protocol.c */,
+				1F5511311AEB64F800DA2E06 /* protocol.h */,
+				1F5511321AEB64F800DA2E06 /* uuid.c */,
+				1F5511331AEB64F800DA2E06 /* uuid.h */,
+				1F5511341AEB64F800DA2E06 /* vehicle_gatt_profile.h */,
+			);
+			path = anki_sdk;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F5510AE1AEB50C000DA2E06 /* AnkiVehicleController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F5510B61AEB50C000DA2E06 /* Build configuration list for PBXNativeTarget "AnkiVehicleController" */;
+			buildPhases = (
+				1F5510AB1AEB50C000DA2E06 /* Sources */,
+				1F5510AC1AEB50C000DA2E06 /* Frameworks */,
+				1F5510AD1AEB50C000DA2E06 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnkiVehicleController;
+			productName = AnkiVehicleController;
+			productReference = 1F5510AF1AEB50C000DA2E06 /* AnkiVehicleController */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F5510A71AEB50C000DA2E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Jeff;
+				TargetAttributes = {
+					1F5510AE1AEB50C000DA2E06 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F5510AA1AEB50C000DA2E06 /* Build configuration list for PBXProject "AnkiVehicleController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F5510A61AEB50C000DA2E06;
+			productRefGroup = 1F5510B01AEB50C000DA2E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F5510AE1AEB50C000DA2E06 /* AnkiVehicleController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F5510AB1AEB50C000DA2E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5511381AEB64F800DA2E06 /* protocol.c in Sources */,
+				1F5511371AEB64F800DA2E06 /* eir.c in Sources */,
+				1F5511361AEB64F800DA2E06 /* anki_util.c in Sources */,
+				1F5511221AEB55FC00DA2E06 /* VehiclesController.m in Sources */,
+				1F5511421AEC42A900DA2E06 /* StdInReader.m in Sources */,
+				1F5510B31AEB50C000DA2E06 /* main.m in Sources */,
+				1F5511251AEB59F500DA2E06 /* Vehicle.m in Sources */,
+				1F5511391AEB64F800DA2E06 /* uuid.c in Sources */,
+				1F5511351AEB64F800DA2E06 /* advertisement.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1F5510B41AEB50C000DA2E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F5510B51AEB50C000DA2E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F5510B71AEB50C000DA2E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F5510B81AEB50C000DA2E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F5510AA1AEB50C000DA2E06 /* Build configuration list for PBXProject "AnkiVehicleController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5510B41AEB50C000DA2E06 /* Debug */,
+				1F5510B51AEB50C000DA2E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F5510B61AEB50C000DA2E06 /* Build configuration list for PBXNativeTarget "AnkiVehicleController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5510B71AEB50C000DA2E06 /* Debug */,
+				1F5510B81AEB50C000DA2E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F5510A71AEB50C000DA2E06 /* Project object */;
+}

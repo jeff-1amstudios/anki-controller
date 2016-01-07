@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5510FB1AEB51CA00DA2E06 /* AnkiControllerLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F5510FA1AEB51CA00DA2E06 /* AnkiControllerLib.h */; };
+		1F5510FD1AEB51CA00DA2E06 /* AnkiControllerLib.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5510FC1AEB51CA00DA2E06 /* AnkiControllerLib.m */; };
+		1F5511031AEB51CA00DA2E06 /* libAnkiControllerLib.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5510F71AEB51CA00DA2E06 /* libAnkiControllerLib.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F5511041AEB51CA00DA2E06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F5510EF1AEB51CA00DA2E06 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F5510F61AEB51CA00DA2E06;
+			remoteInfo = AnkiControllerLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F5510F71AEB51CA00DA2E06 /* libAnkiControllerLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libAnkiControllerLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5510FA1AEB51CA00DA2E06 /* AnkiControllerLib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnkiControllerLib.h; sourceTree = "<group>"; };
+		1F5510FC1AEB51CA00DA2E06 /* AnkiControllerLib.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnkiControllerLib.m; sourceTree = "<group>"; };
+		1F5511021AEB51CA00DA2E06 /* AnkiControllerLibTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnkiControllerLibTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5511081AEB51CA00DA2E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5510F41AEB51CA00DA2E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F5510FF1AEB51CA00DA2E06 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5511031AEB51CA00DA2E06 /* libAnkiControllerLib.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5510EE1AEB51CA00DA2E06 = {
+			isa = PBXGroup;
+			children = (
+				1F5510F91AEB51CA00DA2E06 /* AnkiControllerLib */,
+				1F5511061AEB51CA00DA2E06 /* AnkiControllerLibTests */,
+				1F5510F81AEB51CA00DA2E06 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F5510F81AEB51CA00DA2E06 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F5510F71AEB51CA00DA2E06 /* libAnkiControllerLib.dylib */,
+				1F5511021AEB51CA00DA2E06 /* AnkiControllerLibTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F5510F91AEB51CA00DA2E06 /* AnkiControllerLib */ = {
+			isa = PBXGroup;
+			children = (
+				1F5510FA1AEB51CA00DA2E06 /* AnkiControllerLib.h */,
+				1F5510FC1AEB51CA00DA2E06 /* AnkiControllerLib.m */,
+			);
+			path = AnkiControllerLib;
+			sourceTree = "<group>";
+		};
+		1F5511061AEB51CA00DA2E06 /* AnkiControllerLibTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F5511071AEB51CA00DA2E06 /* Supporting Files */,
+			);
+			path = AnkiControllerLibTests;
+			sourceTree = "<group>";
+		};
+		1F5511071AEB51CA00DA2E06 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F5511081AEB51CA00DA2E06 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1F5510F51AEB51CA00DA2E06 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5510FB1AEB51CA00DA2E06 /* AnkiControllerLib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1F5510F61AEB51CA00DA2E06 /* AnkiControllerLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F55110B1AEB51CA00DA2E06 /* Build configuration list for PBXNativeTarget "AnkiControllerLib" */;
+			buildPhases = (
+				1F5510F31AEB51CA00DA2E06 /* Sources */,
+				1F5510F41AEB51CA00DA2E06 /* Frameworks */,
+				1F5510F51AEB51CA00DA2E06 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnkiControllerLib;
+			productName = AnkiControllerLib;
+			productReference = 1F5510F71AEB51CA00DA2E06 /* libAnkiControllerLib.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		1F5511011AEB51CA00DA2E06 /* AnkiControllerLibTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F55110E1AEB51CA00DA2E06 /* Build configuration list for PBXNativeTarget "AnkiControllerLibTests" */;
+			buildPhases = (
+				1F5510FE1AEB51CA00DA2E06 /* Sources */,
+				1F5510FF1AEB51CA00DA2E06 /* Frameworks */,
+				1F5511001AEB51CA00DA2E06 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F5511051AEB51CA00DA2E06 /* PBXTargetDependency */,
+			);
+			name = AnkiControllerLibTests;
+			productName = AnkiControllerLibTests;
+			productReference = 1F5511021AEB51CA00DA2E06 /* AnkiControllerLibTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F5510EF1AEB51CA00DA2E06 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Jeff;
+				TargetAttributes = {
+					1F5510F61AEB51CA00DA2E06 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					1F5511011AEB51CA00DA2E06 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F5510F21AEB51CA00DA2E06 /* Build configuration list for PBXProject "AnkiControllerLib" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F5510EE1AEB51CA00DA2E06;
+			productRefGroup = 1F5510F81AEB51CA00DA2E06 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F5510F61AEB51CA00DA2E06 /* AnkiControllerLib */,
+				1F5511011AEB51CA00DA2E06 /* AnkiControllerLibTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F5511001AEB51CA00DA2E06 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F5510F31AEB51CA00DA2E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5510FD1AEB51CA00DA2E06 /* AnkiControllerLib.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F5510FE1AEB51CA00DA2E06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F5511051AEB51CA00DA2E06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F5510F61AEB51CA00DA2E06 /* AnkiControllerLib */;
+			targetProxy = 1F5511041AEB51CA00DA2E06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F5511091AEB51CA00DA2E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1F55110A1AEB51CA00DA2E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		1F55110C1AEB51CA00DA2E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F55110D1AEB51CA00DA2E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1F55110F1AEB51CA00DA2E06 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnkiControllerLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1F5511101AEB51CA00DA2E06 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AnkiControllerLibTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F5510F21AEB51CA00DA2E06 /* Build configuration list for PBXProject "AnkiControllerLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5511091AEB51CA00DA2E06 /* Debug */,
+				1F55110A1AEB51CA00DA2E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F55110B1AEB51CA00DA2E06 /* Build configuration list for PBXNativeTarget "AnkiControllerLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F55110C1AEB51CA00DA2E06 /* Debug */,
+				1F55110D1AEB51CA00DA2E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F55110E1AEB51CA00DA2E06 /* Build configuration list for PBXNativeTarget "AnkiControllerLibTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F55110F1AEB51CA00DA2E06 /* Debug */,
+				1F5511101AEB51CA00DA2E06 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F5510EF1AEB51CA00DA2E06 /* Project object */;
+}
